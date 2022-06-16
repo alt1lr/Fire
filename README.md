@@ -1,12 +1,12 @@
 game:GetService("StarterGui"):SetCore("SendNotification",{
 	Title = "Loading", -- Required
-	Text = "Loading Data", -- Required
+	Text = "Loading", -- Required
 	Icon = "rbxthumb://type=Asset&id=829639164&w=150&h=150" -- Optional
 })
 wait(2)
 game:GetService("StarterGui"):SetCore("SendNotification",{
 	Title = "Loading", -- Required
-	Text = "Loading...", -- Required
+	Text = "Loading Data...", -- Required
 	Icon = "rbxthumb://type=Asset&id=829639164&w=150&h=150" -- Optional
 })
 wait(2)
