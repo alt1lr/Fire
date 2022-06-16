@@ -1,5 +1,5 @@
 game:GetService("StarterGui"):SetCore("SendNotification",{
-	Title = "Loading", -- Required
+	Title = "Loading"
 	Text = "Loading", -- Required
 	Icon = "rbxthumb://type=Asset&id=829639164&w=150&h=150" -- Optional
 })
@@ -2884,8 +2884,8 @@ end)
 end)
 
 local Tab9 = Window:NewTab("Credits")
-local Tab9Section = Tab9:NewSection("FireHood/Da Newb")
+local Tab9Section = Tab9:NewSection("Credits")
 Tab9Section:NewLabel("Ui: Kavo Libary")
-Tab9Section:NewLabel("Fly Gui V3: me_ozoneYT And Quandle The Dinglish")
+Tab9Section:NewLabel("Fly Gui V2")
 Tab9Section:NewLabel("Owner: ALT1LR")
 Tab9Section:NewLabel("Discord: alt1lr#9459")
